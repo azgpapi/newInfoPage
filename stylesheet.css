@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.icon-image img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.container .learning {
+   background-color: hsl(47, 88%, 63%);
+   width: 70px;
+   text-align: center;
+   font-weight: bolder;
+   margin-top: 10px;
+   padding: 5px;
+   border-radius: 3px ;
+}
+
+
+.date small{
+    margin-top: 20px;
+    font-size: 0.7rem;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500; 
+  }
+
+  .title h1{
+    margin: 20px 0;
+    font-weight: bolder;
+    font-size: 25px
+  }
+
+  .para{
+    font-size: 16px;
+    margin-bottom: 20px;
+    opacity: 70%;
+  }
+
+  .personal{
+    display: flex;
+  }
+
+  .personal img{
+    width: 30px;
+    margin-right: 5px;
+  }
+  .personal strong{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .attribution {
+    text-align: center;
+    margin-top: 50px ;
+  }
